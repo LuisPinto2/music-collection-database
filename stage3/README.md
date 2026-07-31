@@ -1,9 +1,6 @@
 # Stage 3 — Advanced SQL Analytical Queries
 
-![Grade](https://img.shields.io/badge/Grade-19.7%20%2F%2020.0-brightgreen?style=flat-square)
-![Oracle SQL](https://img.shields.io/badge/Database-Oracle%20SQL-red?style=flat-square&logo=oracle)
-
-## 📌 Overview
+## Overview
 
 This directory contains the third stage of the **Information Systems and Databases (SIBD)** course project (2025/2026).
 
@@ -11,7 +8,7 @@ While Stages 1 and 2 focused on full-domain E-R modeling and complete relational
 
 This stage of the project earned a grade of **19.7 / 20.0**.
 
-## 📁 File Structure
+## File Structure
 
 | File                | Description                                                                                    |
 | :------------------ | :--------------------------------------------------------------------------------------------- |

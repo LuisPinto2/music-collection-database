@@ -1,6 +1,19 @@
 # Music Collection Database — Relational Database System & Enterprise PL/SQL Management Engine
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Academic Project](https://img.shields.io/badge/Academic--Project-FCUL--2026-blue)](#academic-context--attribution)
+[![Grade](https://img.shields.io/badge/Grade-18.5%20%2F%2020-brightgreen)](#academic-context--attribution)
+[![Environment](https://img.shields.io/badge/Environment-SQL*Plus-purple)](#getting-started)
+[![Database](https://img.shields.io/badge/Database-Oracle%20DB-red)](#technical-specifications--system-architecture)
+[![Focus](https://img.shields.io/badge/Focus-E--R%20Modeling%20%7C%20PL%2FSQL-orange)](#technical-specifications--system-architecture)
+
 A full-lifecycle relational database solution built for physical and digital music collection management, artist cataloging, and collection analytics. Developed on Oracle Database SQL and PL/SQL, the project spans all core stages of database systems engineering: Conceptual Design (E-R Modeling), Relational Schema Mapping, Advanced Analytical SQL Reporting, and an Enterprise-grade PL/SQL Data Access Engine enforcing complex Business Rules (RIAs).
+
+<p align="center">
+  <img src="stage1/en/er-diagram-en.png" alt="Entity-Relationship Diagram" width="100%">
+  <br>
+  <em>Figure 1: Conceptual Entity-Relationship (E-R) Diagram for the Music Collection Database.</em>
+</p>
 
 > **Academic Context & Portfolio Preservation:** Developed in 2026 as a comprehensive group engineering project for the **Information Systems and Databases** (_Sistemas de Informação e Bases de Dados — SIBD_) course within the BSc in Software Engineering program at the **Faculty of Sciences of the University of Lisbon (FCUL)**. Delivered across sequential architectural phases, the project achieved a final grade of **18.5 / 20**. This repository was refactored and professionalized for portfolio preservation, clean technical documentation, and compliance with industry standards.
 
