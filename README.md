@@ -10,9 +10,7 @@
 A full-lifecycle relational database solution built for physical and digital music collection management, artist cataloging, and collection analytics. Developed on Oracle Database SQL and PL/SQL, the project spans all core stages of database systems engineering: Conceptual Design (E-R Modeling), Relational Schema Mapping, Advanced Analytical SQL Reporting, and an Enterprise-grade PL/SQL Data Access Engine enforcing complex Business Rules (RIAs).
 
 <p align="center">
-    <span style="background-color: white; display: inline-block; padding: 10px; border-radius: 6px;">
-  <img src="stage1/en/er-diagram-en.png" alt="Entity-Relationship Diagram" width="100%">
-  </span>
+  <img src="stage1/en/er-diagram-en.jpg" alt="Entity-Relationship Diagram" width="100%">
   <br>
   <em>Figure 1: Conceptual Entity-Relationship (E-R) Diagram for the Music Collection Database.</em>
 </p>
