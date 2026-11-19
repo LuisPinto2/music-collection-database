@@ -1,0 +1,29 @@
+services:
+  web:
+    build: .    # Use Dockerfile in the actual dir
+    ports:
+      - "8080:80"     # Open browser port 8080 and 80 apache default HTTP port
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - db            # Execute db container first
+
+  db:
+    image: mariadb:10.11
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: music_collection
+    ports:
+      - "3306:3306"   # Default port for MariaDB
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+
+  phpmyadmin:
+    image: phpmyadmin:latest          # Web interface for DB management
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: rootpassword
+    depends_on:
+      - db
